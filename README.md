@@ -1,5 +1,7 @@
 # GotSkillz
 
+![](https://raw.github.com/mrodrigues/got_skillz/master/img/skillz.jpg)
+
 Track your skillz with GitHub commit messages, and list where and when your learned them.
 
 ## Installation
