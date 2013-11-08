@@ -25,10 +25,11 @@ Get your skillz:
     my_skillz = GotSkillz.skillz_for('login', 'password')
     some_skill = my_skillz.first
 
-    some_skill.original_message # Did something awesome <3 Learned to
-sing! </3
-    some_skill.skill            # Learned to sing!
-    some_skill.url              # http://github.com/:user/:repo/commit/:sha
+    some_skill.original_message # "Did something awesome <3 Learned to
+sing </3"
+    some_skill.skill            # "Learned to sing"
+    some_skill.url              #
+"http://github.com/:user/:repo/commit/:sha"
 
 Wanna change the tags to something boring?
 
@@ -40,9 +41,8 @@ Wanna change the tags to something boring?
     my_skillz = GotSkillz.skillz_for('login', 'password')
     some_skill = my_skillz.first
 
-    some_skill.original_message # Did something boring <skill> Learned
-to fold laundry in a new fashion </skill>
-   
+    some_skill.original_message # "Did something boring <skill> Learned
+to fold laundry in a new exciting fashion </skill>"
 
 ## Contributing
 
